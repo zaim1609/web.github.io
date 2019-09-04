@@ -1,0 +1,101 @@
+#mas{
+    width:980px;
+    margin:auto;
+    border: rgba(247, 237, 237, 0) 1px solid;
+    box-shadow: #000 2px 0px 2px 0px;
+    height: 1934px;
+    background-color: rgb(255, 255, 255);
+}
+body{
+    background-color:rgb(170, 170, 170);
+}
+header{
+    text-align: center;
+    height: 180px;
+    width: 960px;
+    float: left;
+    background:url(bh.jpg);
+    background-size: 940px 400px;
+    padding: 20px 0px 0px 20px;
+    font-family: cuprum;
+    font-weight: bold;
+    font-size: 32px;
+    color:rgb(207, 222, 231);
+    text-shadow: #000 2px 2px 1px;
+}
+header h1{
+    padding:40px;
+}
+nav{
+    width: 980px;
+    float: left;
+    background-color:rgb(134, 130, 130);
+    overflow: auto;
+    border: #AAAAAA 1px; 
+    box-shadow: #3a3939ce 4px 3px 4px 3px;
+}
+nav ul{
+    list-style: none;
+    float: left;
+    overflow: auto;
+    margin: 0px;
+    padding: 0px;
+}
+nav ul li{
+    display: block;
+   padding: 5px 10px 5px 10px;
+   float: left;
+   margin: 0px;
+   border-right: #AAAAAA 1px solid;
+}
+nav ul li:hover{
+    background: #DFDFDF;
+}
+nav ul li a{
+    color: #000000;
+    text-decoration:none; 
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+h1{
+    padding:10px;
+    text-align: center;
+    font-family:serif;
+    font-size:40px
+}
+p{
+    font-size: 20px;
+}
+#mas #more a{
+    float: left;
+	overflow: auto;
+	padding: 10px 50px 10px 50px;
+	background: #CF6;
+	border-radius: #FF9933 1px solid;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-top:-10px;
+	text-align: center;
+	text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+#mas #more a:hover{
+    background: #BD5;
+    border:rgba(129, 214, 73, 0.322) 1px solid;
+    padding: 15px 55px 15px 55px;
+    box-shadow: rgba(24, 21, 21, 0.397) 2px 1px 1px 2px;
+}
+footer{
+    float: right;
+    background: rgba(2, 2, 63, 0.877);
+    width: 985px;
+    margin-right:-0px;
+    box-shadow: #000 2px 1px 2px 1px;
+}
+footer #akhir{
+    width: 390px;
+    padding: 20px;
+    float: left;
+}

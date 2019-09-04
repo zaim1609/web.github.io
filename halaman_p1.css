@@ -1,0 +1,91 @@
+#oooo{
+    width: 960px;
+    margin: auto;
+    border: blanchedalmond 1px solid;
+}
+body{
+    background-image: url(qw.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+header{
+    text-align: center;
+    height: 280px;
+    width: 960px;
+    font-weight: bold;
+    font-size: 39px;
+    font-family:fantasy;
+    color:black;
+    background:url(pk.jpg);
+    background-size:980px 400px;
+}
+nav{
+    width: 960px;
+    float: left;
+    background:#DFDFDF;
+    overflow:auto;
+    border:#AAAAAA 1px solid;
+}
+nav ul{
+    list-style: none;
+    float: left;
+    overflow: auto;
+    margin: 0px;
+    padding: 0px;
+}
+nav ul li{
+    display: block;
+    padding: 5px 10px 5px 10px;
+    float: left;
+    margin: 0px;
+    border-right:#AAAAAA 1px solid;
+}
+nav ul li:hover{
+    background: rgb(138, 204, 206);
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration:underline;
+}
+#oooo #lolo{
+    padding: 5px;
+}
+
+#lolo{
+    width: 960px;
+    float: left;
+    overflow: auto;
+    border: rgba(228, 222, 222, 0) 1px solid; 
+}
+#lolo ul{
+    list-style: none;
+    float: left;
+    overflow: auto;
+    margin: 0px;
+    padding: 0px;
+}
+#lolo ul li{
+    display: block;
+    padding: 5px 10px 5px 10px;
+    float: left;
+    margin: 0px;
+    border-right: rgba(238, 231, 231, 0) 1px solid;
+}
+#lolo ul li:hover{
+    background:rgba(58, 57, 57, 0.322) 
+}
+footer{
+    float: left;
+    background: rgba(2, 2, 63, 0.877);
+    width: 960px;
+}
+footer #last{
+    width: 300px;
+    padding: 10px;
+    float: left;
+}
+
+

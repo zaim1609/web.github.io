@@ -1,0 +1,437 @@
+#bnn{
+    width:980px;
+    margin:auto;
+    border: rgba(247, 237, 237, 0) 1px solid;
+    box-shadow: #000 2px 0px 2px 0px;
+    height: 1415px;
+    background-color: #DFDFDF;
+}
+body{
+    background-color:rgb(170, 170, 170);
+}
+header{
+    text-align: center;
+    height: 180px;
+    width: 960px;
+    float: left;
+    background:url(bh.jpg);
+    background-size: 940px 400px;
+    padding: 20px 0px 0px 20px;
+    font-family: cuprum;
+    font-weight: bold;
+    font-size: 32px;
+    color:rgb(207, 222, 231);
+    text-shadow: #000 2px 2px 1px;
+}
+header h1{
+    padding: 40px;
+}
+nav{
+    width: 980px;
+    float: left;
+    background-color:rgb(134, 130, 130);
+    overflow: auto;
+    border: #AAAAAA 1px; 
+    box-shadow: #3a3939ce 4px 3px 4px 3px;
+}
+nav ul{
+    list-style: none;
+    float: left;
+    overflow: auto;
+    margin: 0px;
+    padding: 0px;
+}
+nav ul li{
+    display: block;
+   padding: 5px 10px 5px 10px;
+   float: left;
+   margin: 0px;
+   border-right: #AAAAAA 1px solid;
+}
+nav ul li:hover{
+    background: #DFDFDF;
+}
+nav ul li a{
+    color: #000000;
+    text-decoration:none; 
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+#bnn #content{
+    width: 240px;
+    float:left;
+    padding: 10px;
+    margin-left:-10px;
+}
+#bnn #content #single{
+    margin: 5px;
+    border: #DFDFDF 1px solid;
+    padding: 5px;
+    font-size: 18px;
+    float: left;
+    overflow: auto;
+    background-color: aliceblue;
+    box-shadow: rgb(48, 45, 45) 4px 3px 3px 4px;
+}
+#bnn #content #single:hover{
+   background-color: rgba(5, 5, 5, 0.096); 
+}
+#bnn #content #single a{
+    color:#000; 
+    text-decoration: none;
+ }
+#bnn #content #single #featured-image{
+    width: 250px;
+    height: 300px;
+    background:url(another.jpg);
+    background-size:270px 300px;
+    background-repeat: no-repeat;
+    -moz-background-size: 150px 150px;
+    background-position: center;
+    float:left;
+    overflow: auto;
+    margin-right: 5px;
+}
+#bnn #content #single h2{
+    margin:0px;
+    font-family:cuprum;
+    font-size: 30px;
+    padding: 5px;
+    border: rgb(21, 44, 105) 1px solid;
+    background: #1d79c4;
+    margin-bottom: 10px;
+}
+#bnn #content #single #more a{
+	float: right;
+	overflow: auto;
+	padding: 2px 10px 2px 10px;
+	background: #CF6;
+	border: #FF9933 1px solid;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: #000000;
+}
+#bnn #content #single #more a:hover{
+    background: #BD5;
+    border:rgba(73, 122, 214, 0.795) 1px solid;
+}
+#bnn #iii{
+    width: 180px;
+    float: left;
+    padding: 10px;
+    margin-left: 90px;
+}
+#bnn #iii #ppp{
+    margin: 5px;
+    border: #DFDFDF 1px solid;
+    padding: 5px;
+    font-size: 18px;
+    float: left;
+    overflow: auto;
+    background-color: aliceblue;
+    box-shadow: rgb(48, 45, 45) 4px 3px 3px 4px;
+}
+#bnn #iii #ppp:hover{
+    background-color: rgba(5, 5, 5, 0.096); 
+}
+#bnn #iii #ppp a{
+    color:#000; 
+    text-decoration: none;
+}
+#bnn #iii #ppp #featured-image{
+    width: 250px;
+    height: 300px;
+    background:url(grafity.jpg);
+    background-size:270px 300px;
+    background-repeat: no-repeat;
+    -moz-background-size: 150px 150px;
+    background-position: center;
+    float:left;
+    overflow: auto;
+    margin-right: 5px;
+}
+#bnn #iii #ppp h2{
+    margin:0px;
+    font-family:cuprum;
+    font-size: 30px;
+    padding: 5px;
+    border: rgb(21, 44, 105) 1px solid;
+    background: #1d79c4;
+    margin-bottom: 10px;
+}
+#bnn #iii #ppp #more a{
+	float: right;
+	overflow: auto;
+	padding: 2px 10px 2px 10px;
+	background: #CF6;
+	border: #FF9933 1px solid;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: #000000;
+}
+#bnn #iii #ppp #more a:hover{
+    background: #BD5;
+    border:rgba(73, 122, 214, 0.795) 1px solid;
+}
+#bnn #jjj{
+    width: 180px;
+    float: left;
+    padding: 10px;
+    margin-left: 150px;
+}
+#bnn #jjj #hhh{
+    margin: 5px;
+    border: #DFDFDF 1px solid;
+    padding: 5px;
+    font-size: 18px;
+    float: left;
+    overflow: auto;
+    background-color: aliceblue;
+    box-shadow: rgb(48, 45, 45) 4px 3px 3px 4px;
+}
+#bnn #jjj #hhh:hover{
+    background-color: rgba(5, 5, 5, 0.096); 
+}
+ #bnn #jjj #hhh a{
+    color:#000; 
+    text-decoration: none;
+}
+#bnn #jjj #hhh #featured-image{
+    width: 250px;
+    height: 300px;
+    background:url(po.jpg);
+    background-size:270px 300px;
+    background-repeat: no-repeat;
+    -moz-background-size: 150px 150px;
+    background-position: center;
+    float:left;
+    overflow: auto;
+    margin-right: 5px;
+}
+#bnn #jjj #hhh h2{
+    margin:0px;
+    font-family:cuprum;
+    font-size: 30px;
+    padding: 5px;
+    border: rgb(21, 44, 105) 1px solid;
+    background: #1d79c4;
+    margin-bottom: 10px;
+}
+#bnn #jjj #hhh #more a{
+	float: right;
+	overflow: auto;
+	padding: 2px 10px 2px 10px;
+	background: #CF6;
+	border: #FF9933 1px solid;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: #000000;
+}
+#bnn #jjj #hhh #more a:hover{
+    background: #BD5;
+    border:rgba(73, 122, 214, 0.795) 1px solid;
+}
+#bnn #fff{
+    width: 180px;
+    float: right;
+    padding: 10px;
+    margin-right:690px;
+}
+#bnn #fff #xxx{
+    margin: 5px;
+    border: #DFDFDF 1px solid;
+    padding: 5px;
+    font-size: 18px;
+    float: left;
+    overflow: auto;
+    background-color: aliceblue;
+    box-shadow: rgb(48, 45, 45) 4px 3px 3px 4px;
+}
+#bnn #fff #xxx:hover{
+    background-color: rgba(5, 5, 5, 0.096); 
+}
+#bnn #fff #xxx a{
+    color:#000; 
+    text-decoration: none;
+  }
+#bnn #fff #xxx #featured-image{
+    width: 250px;
+    height: 300px;
+    background:url(lukis\ w.jpg);
+    background-size:270px 300px;
+    background-repeat: no-repeat;
+    -moz-background-size: 150px 150px;
+    background-position: center;
+    float:left;
+    overflow: auto;
+    margin-right: 5px;
+}
+#bnn #fff #xxx h2{
+    margin:0px;
+    font-family:cuprum;
+    font-size: 30px;
+    padding: 5px;
+    border: rgb(21, 44, 105) 1px solid;
+    background: #1d79c4;
+    margin-bottom: 10px;
+}
+#bnn #fff #xxx #more a{
+	float: right;
+	overflow: auto;
+	padding: 2px 10px 2px 10px;
+	background: #CF6;
+	border: #FF9933 1px solid;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: #000000;
+}
+#bnn #fff #xxx #more a:hover{
+    background: #BD5;
+    border:rgba(73, 122, 214, 0.795) 1px solid;
+}
+#bnn #zzz{
+    width: 180px;
+    float: right;
+    padding: 4px;
+    margin-right:-255px;
+}
+#bnn #zzz #aaa{
+    margin: 5px;
+    border: #DFDFDF 1px solid;
+    padding: 5px;
+    font-size: 18px;
+    float: left;
+    overflow: auto;
+    background-color: aliceblue;
+    box-shadow: rgb(48, 45, 45) 4px 3px 3px 4px;
+}
+#bnn #zzz #aaa:hover{
+    background-color: rgba(5, 5, 5, 0.096); 
+}
+#bnn #zzz #aaa a{
+    color:#000; 
+    text-decoration: none;
+}
+#bnn #zzz #aaa #featured-image{
+    width: 250px;
+    height: 300px;
+    background:url(abstrak.jpg);
+    background-size:270px 300px;
+    background-repeat: no-repeat;
+    -moz-background-size: 150px 150px;
+    background-position: center;
+    float:left;
+    overflow: auto;
+    margin-right: 5px;
+}
+#bnn #zzz #aaa h2{
+    margin:0px;
+    font-family:cuprum;
+    font-size: 30px;
+    padding: 5px;
+    border: rgb(21, 44, 105) 1px solid;
+    background: #1d79c4;
+    margin-bottom: 10px;
+}
+#bnn #zzz #aaa #more a{
+	float: right;
+	overflow: auto;
+	padding: 2px 10px 2px 10px;
+	background: #CF6;
+	border: #FF9933 1px solid;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: #000000;
+}
+#bnn #zzz #aaa #more a:hover{
+    background: #BD5;
+    border:rgba(73, 122, 214, 0.795) 1px solid;
+}
+#bnn #yyy{
+    width: 180px;
+    float: right;
+    padding: 4px;
+    margin-right:-259px;
+}
+#bnn #yyy #vvv{
+    margin: 5px;
+    border: #DFDFDF 1px solid;
+    padding: 5px;
+    font-size: 18px;
+    float: left;
+    overflow: auto;
+    background-color: aliceblue;
+    box-shadow: rgb(48, 45, 45) 4px 3px 3px 4px;
+}
+#bnn #yyy #vvv:hover{
+    background-color: rgba(5, 5, 5, 0.096); 
+}
+#bnn #yyy #vvv a{
+    color:#000; 
+    text-decoration: none;
+}
+#bnn #yyy #vvv #featured-image{
+    width: 250px;
+    height: 300px;
+    background:url(robot.jpg);
+    background-size:270px 300px;
+    background-repeat: no-repeat;
+    -moz-background-size: 150px 150px;
+    background-position: center;
+    float:left;
+    overflow: auto;
+    margin-right: 5px;
+}
+#bnn #yyy #vvv h2{
+    margin:0px;
+    font-family:cuprum;
+    font-size: 30px;
+    padding: 5px;
+    border: rgb(21, 44, 105) 1px solid;
+    background: #1d79c4;
+    margin-bottom: 10px;
+}
+#bnn #yyy #vvv #more a{
+	float: right;
+	overflow: auto;
+	padding: 2px 10px 2px 10px;
+	background: #CF6;
+	border: #FF9933 1px solid;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: #000000;
+}
+#bnn #yyy #vvv #more a:hover{
+    background: #BD5;
+    border:rgba(73, 122, 214, 0.795) 1px solid;
+}
+footer{
+    float: right;
+    background: rgba(2, 2, 63, 0.877);
+    width: 985px;
+    margin-right:-105px;
+}
+footer #akhir{
+    width: 390px;
+    padding: 20px;
+    float: left;
+}
